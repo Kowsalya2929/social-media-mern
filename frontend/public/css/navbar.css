@@ -1,0 +1,54 @@
+#hh{
+    background-image: url('../images/sm-bg-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(232, 222, 222); */
+    color: white;
+}
+
+@media (min-width:320px){
+    #sma{
+        font-size: smaller;
+    }
+}
+
+#sear{
+    position: relative;
+}
+
+#sear1{
+    position: absolute;
+    left: -140px;
+}
+
+i,li i{
+    cursor: pointer;
+}
+
+#parent1{
+    position: relative;
+}
+
+#db{
+    position: absolute;
+    right: 0px;
+    left: 800px;
+}
+
+
+@media (min-width:1440px){
+    #db{
+        position: absolute;
+        right: 0px;
+        left: 1200px;
+    }
+}
+
+@media (min-width:2560px){
+    #db{
+        position: absolute;
+        right: 0;
+        left: 2300px;
+    }
+}

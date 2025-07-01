@@ -1,0 +1,21 @@
+#bg-login{
+  background-image: url('../images/sm-bg-7.jpg');
+  height: 100dvh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: rgb(232, 222, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-first{
+  height: 32rem;
+  width: 25rem;
+  margin: 0 10px;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}

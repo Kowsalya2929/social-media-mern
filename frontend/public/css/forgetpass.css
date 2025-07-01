@@ -1,0 +1,33 @@
+#bg-login{
+  background-image: url('../images/sm-bg-7.jpg');
+  height: 100dvh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: rgb(224, 203, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-first3{
+  height: 30rem;
+  width: 25rem;
+  margin: 0 10px;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+#inputs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#otp1,#otp2,#otp3,#otp4,#otp5,#otp6{
+    width: 40px;
+    text-align: center;
+}
