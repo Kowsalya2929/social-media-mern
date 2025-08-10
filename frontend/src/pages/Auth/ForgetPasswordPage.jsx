@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../public/css/forgetpass.css';
+import '../../css/forgetpass.css';
 import {Link} from 'react-router-dom';
 
 const ForgetPasswordPage = () => {
@@ -33,7 +33,7 @@ const ForgetPasswordPage = () => {
                 <div className="col-12 my-3 mt-4">
                     <Link to='/home' className='text-decoration-none'><button className='px-4 py-2 border-0 rounded d-block mx-auto' type='button'>Change Password</button></Link>
                 </div>
-                <p className='text-center'>Don't have an account ? <Link className='text-decoration-none text-black' to='/'>New Account</Link></p>
+                <p className='text-center'>Don't have an account ? <Link className='text-decoration-none text-black' to='/register'>New Account</Link></p>
             </form>
         </div>
     </div>

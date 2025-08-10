@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
-import '../../public/css/navbar.css';
-import profile from '../../public/images/profile.jpg';
+import Navbar from '../components/Navbar.jsx';
+import '../css/navbar.css';
+import profile from '../images/profile.jpg';
 
 const HomePage = () => {
   return (

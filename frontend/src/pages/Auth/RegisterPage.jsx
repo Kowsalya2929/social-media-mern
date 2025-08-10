@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../public/css/register.css';
+import '../../css/register.css';
 import {Link} from 'react-router-dom';
 
 const RegisterPage = () => {
